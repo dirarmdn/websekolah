@@ -80,6 +80,7 @@ body {
       color: #011345;
       font-weight: 400;
       line-height: 24px;
+      text-align: justify;
     }
     .title-content {
       color: #011345;
@@ -774,3 +775,62 @@ header.masthead .masthead-logo{
     .sidebar {
       padding-left: 30px;
     }
+
+    /* Pengaturan border-collapse jenis,ukuran serta warna huruf secara keseluruhan tabel */
+table{
+  border-collapse:collapse;
+  font:normal normal 12px Verdana,Arial,Sans-Serif;
+  color:#333333;
+}
+/* Mengatur warna latar, warna teks, ukruan font dan jenis bold (tebal) pada header tabel */
+table th {
+  background:#00BFFF;
+  color:#070505;
+  font-weight:bold;
+  font-size:14px;
+}
+/* Mengatur border dan jarak/ruang pada kolom */
+table th,
+table td {
+  vertical-align:top;
+  padding:12px 100px;
+  border:1px solid #696969;
+}
+/* Mengatur warna baris */
+table tr {
+  background:#F5FFFA;
+}
+/* Mengatur warna baris genap (akan menghasilkan warna selang seling pada baris tabel) */
+table tr:nth-child(even) {
+  background:#F0F8FF;
+}
+
+.box{
+  height: 50px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.list-sidebar a{
+  color: #011345;
+}
+
+.list-sidebar a:hover {
+  text-decoration: none;
+}
+
+.img-program {
+  border-radius: 20px;
+}
+.capt-program {
+  margin-left: -50px;
+  padding-top: 50px;
+}
+
+.sejarah-43 p {
+  color: #011345;
+  text-align: justify;
+}
+.sejarah-43 {
+  margin-bottom: 70px;
+}
