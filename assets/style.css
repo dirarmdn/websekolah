@@ -772,6 +772,7 @@ table tr:nth-child(even) {
 
 .has-search .form-control {
   padding-left: 2.375rem;
+  border-radius: 20px;
 }
 
 .has-search .form-control-feedback {
@@ -784,4 +785,14 @@ table tr:nth-child(even) {
   text-align: center;
   pointer-events: none;
   color: #aaa;
+}
+
+.img-sarana img{
+  height: 342px;
+  width: auto;
+}
+.img-sarana {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
