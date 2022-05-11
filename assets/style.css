@@ -122,8 +122,18 @@ body {
     .counter {
       background-color: #011345;
       height: 300px;
-      margin-bottom: 100px;
+      margin-bottom: 150px;
       margin-top: -225px;
+      padding-top: 80px;
+    }
+    .counter h1 {
+      color: #FFF;
+      font-weight: bold;
+      font-size: 80px;
+    }
+    .counter p {
+      color: #F2ED20;
+      font-weight: 500;
     }
 
     /* beranda content */
