@@ -15,7 +15,7 @@ body {
     }
 
     /* hero */
-    #hero {
+    #hero{
       width: 100%;
       height: 100vh;
       background: url("assets/img/hero_img-1.svg") top center;
@@ -23,6 +23,15 @@ body {
       position: relative;
       padding: 0;
       margin-bottom: 70px;
+    }
+    .background-desktop-1{
+      width: 1280px;
+      height: 600px;
+      padding: 0;
+      margin-left: -32px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
     }
     #hero-1 {
       width: 100%;
@@ -32,7 +41,7 @@ body {
       padding: 0;
       margin-bottom: 70px;
     }
-    #hero:before, #hero-1::before {
+    #hero:before, .background-desktop-1::before {
       content: "";
       background: rgba(13, 20, 26, 0.7);
       position: absolute;
@@ -117,26 +126,25 @@ body {
         margin: 0px 20px 0px 20px;
       }
 
-    header.masthead{
+  header.masthead{
   background-image: url("img/Rectangle 87.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  padding-top: 16.5rem;
-  padding-bottom: 8rem;
   text-align: center;
   color: #fff;
+  top: 750px;
+  position: fixed;
 }
-header.masthead .masthead-heading{
+.masthead-heading{
   font-size: 64px;
   font-weight: 600;
-  line-height: 3.25rem;
-  margin-bottom: 2rem;
   font-family: 'Montserrat';
-  top: 175px;
-  position: absolute;
-  left: 270px;
+  color: white;
+  text-align: center;
+  padding-top: 240px;
+  position: relative;
 }
 header.masthead .masthead-logo{
     margin-bottom: 190px;
@@ -146,8 +154,7 @@ header.masthead .masthead-logo{
     font-size: 40px;
     text-align: left;
     color: white;
-    margin-bottom: 190px;
-    margin-top: -268px;
+    
 }
 .search1{
     font-size: 40px;
@@ -190,14 +197,14 @@ header.masthead .masthead-logo{
 .logo-besar{
     position: absolute;
     top:775px;
-    right: 30px;
+    text-align: right;
 }
 .box-kuning{
     position: absolute;
     width: 920px;
     height: 246px;
     top: 1393px;
-    left: 160px;
+    left: 110px;
 
     background: #F2ED20;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
@@ -233,7 +240,7 @@ header.masthead .masthead-logo{
     width: 200px;
     text-align: center;
     position: absolute;
-    left: 538px;
+    left: 488px;
 }
 .visi2{
     text-align: center;
