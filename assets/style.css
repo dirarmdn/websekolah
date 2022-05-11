@@ -704,35 +704,3 @@ table tr:nth-child(even) {
 .fadeIn-bottom{
   top: 80%;
 }
-	@media screen and (max-width: 767px) {
-    .counter-block{
-		padding: 45px 0;
-	}
-}
-	.counter-items {
-		display: flex;
-		justify-content: space-around;
-		align-items: flex-start;
-  }
-		@media screen and (max-width: 767px) {
-      .counter-items{
-			flex-direction: column;
-			align-items: center;
-		}
-  }
-		.item {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			padding: 0 2em;
-    }
-			@media screen and (max-width: 767px) {
-        .item{
-				padding: 2em;
-				border-top: solid 1px #e6e6e6;
-      }
-    }
-    .counter-block p {
-      color: #F2ED20;
-      font-weight: 500;
-    }

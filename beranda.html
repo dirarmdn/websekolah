@@ -96,18 +96,14 @@
                       <h2 class="counter" data-value="43"></h2>
                       <p class="h4">JUMLAH GURU</p>
                     </div>
-                  </div>
+
                   <div class="col-lg-4">
-                    <div id="myTargetElement2" class="item">
                       <h2>A</h2>
                       <p class="h4">AKREDITASI</p>
-                    </div>
                   </div>
                   <div class="col-lg-4">
-                    <div id="myTargetElement3" class="item custom-class">
-                      <h2 class="counter" data-value="875"></h2>
+                      <h2 class="counter"></h2>
                       <p class="h4">JUMLAH PESERTA DIDIK</p>
-                    </div>
                   </div>
                 </div>
             </section>
@@ -312,31 +308,6 @@
 <script src="	https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="assets/script.js"></script>
 <script>
-  var options = {
-		useEasing: true, 
-		useGrouping: true, 
-		separator: ',', 
-		decimal: '.', 
-	};
 
-var counterParent = document.getElementById('unique-id');
-var children = counterParent.children;
-
-function countStart(){
-    $('#unique-id').addClass('active');
-		for (var i = 0; i < children.length; i++) {
-		 	var item = document.getElementById(children[i].id).querySelector('.counter');
-		 	var countValue = item.getAttribute('data-value');
-
-			var countUP = new CountUp(item, 0, countValue, 0, 2, options);
-			if (!countUP.error) {
-				countUP.start();
-			}
-		}
-	}
-
-	ScrollReveal().reveal('.counter-block', { 
-		beforeReveal: countStart
-	});	
 </script>
 </html>
