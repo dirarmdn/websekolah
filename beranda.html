@@ -16,45 +16,84 @@
      <!-- ======= Header ======= -->
       <!-- .navbar -->
       <div class="wrapper">
-        <header id="header" class="fixed-top">
-        <nav class="navbar pt-3">
-          <div class="container d-flex align-items-center justify-content-between">
-            <div class="pos-f-t">
-              <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-dark p-4">
-                  <h4 class="text-white">Collapsed content</h4>
-                  <span class="text-muted">Toggleable via the navbar brand.</span>
+        <header id="header">
+          <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
+            <div class="container">
+              <a class="navbar-brand text-white" href="beranda.html">
+                <div class="row my-2">
+                <img class="img-fluid logo-nav" alt="100%x280" src="assets/img/footer-logo.svg">
+                <div class="col">
+                <h3>SMPN</h3>
+                <h5>Bandung</h5>
                 </div>
+                <h1>43</h1>
               </div>
-                <span class="sidenav-btn" onclick="openNav()">&#9776; Menu</span>
-                <div id="mySidenav" class="sidenav">
-                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                  <a href="#">About</a>
-                  <a href="#">Services</a>
-                  <a href="#">Clients</a>
-                  <a href="#">Contact</a>
-                </div>
-            </div>
-            <div>
-            <a class="navbar-brand text-white" href="#">
-              <div class="row">
-              <img class="img-fluid logo-nav" alt="100%x280" src="assets/img/footer-logo.svg">
-              <div class="col">
-              <h3>SMPN</h3>
-              <h5>Bandung</h5>
+              </a>
+              <button class="navbar-toggler ps-0" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+                aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon d-flex justify-content-start align-items-center">
+                  <i class="fas fa-bars"></i>
+                </span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarExample01">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mr-5 right">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="beranda.html">Beranda</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      Profile
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="sejarah.html">Sejarah</a>
+                      <a class="dropdown-item" href="desktop-1.html">Identitas Sekolah</a>
+                      <a class="dropdown-item" href="guru.html">Guru dan Tendik</a>
+                      <a class="dropdown-item" href="saranaprasarana.html">Sarana dan Prasarana</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      Kesiswaan
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="prestasi.html">Prestasi</a>
+                      <a class="dropdown-item" href="#">Ekstrakulikuler</a>
+                      <a class="dropdown-item" href="program.html">Program</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                  </li>
+                </ul>
+          
+                <ul class="navbar-nav flex-row">
+                  <li class="nav-item">
+                    <a class="nav-link px-2" href="https://www.facebook.com/smpn43bdg">
+                      <i class="fab fa-facebook-square"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-2" href="https://www.instagram.com/smpn43bandungppid/?hl=id">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ps-2" href="https://www.youtube.com/channel/UCFB05kwwFquR77TLG1yffvw">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
               </div>
-              <h1>43</h1>
             </div>
-            </a>
-          </div>
-          </div>
-            </div>
-        </nav>
+          </nav>
         </header>
   
 
       <!-- ======= Hero Section ======= -->
-      <section id="hero" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0, 0, 0, 1)),url(assets/img/hero-bg.svg)">
+      <section id="hero" style="background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0, 0, 0, 0.8)),url(assets/img/hero-bg.svg)">
         <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
           <h1>Sekolah Pencetak <span>Prestasi</span></h1>
           <div class="d-flex mt-3">
@@ -89,34 +128,37 @@
         <!-- counter -->
         <div class="counter">
           <div class="container">
-            <section class="counter-block">
-                <div class="row counter-items" id="unique-id">
-                  <div class="col-lg-4">
-                    <div id="myTargetElement" class="item">
-                      <h2 class="counter" data-value="43"></h2>
-                      <p class="h4">JUMLAH GURU</p>
+          </div>
+        </div>
+
+        <div class="text-center align-content-center">
+          <div class="col-lg-12">
+            <h3 class="title-content text-center">Program Sekolah</h3>
+            <hr style="height:4px;border:0;border-radius:90px;color:#f2ed20;background-color:#f2ed20; margin-top: -4px; width: 170px;">
+            <p class="font-italic text-muted mb-4 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>  
+          <div class="img-program-1 mt-5">
+            <div class="row mr-0">
+              <div class="content-program"> <a href="#">
+                      <div class="content-overlay"></div> <img class="content-image" src="assets/img/program-1.svg">
+                      <div class="content-details fadeIn-bottom">
+                          <h3 class="content-title">Gerakan Pungut Sampah (GPS)</h3>
+                      </div>
+                  </a> </div>
+                  <div class="content-program"> <a href="#">
+                    <div class="content-overlay"></div> <img class="content-image" src="assets/img/program-2.svg">
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Gerakan LIterasi Sekolah (GLS)</h3>
                     </div>
-
-                  <div class="col-lg-4">
-                      <h2>A</h2>
-                      <p class="h4">AKREDITASI</p>
+                </a> </div>
+                <div class="content-program"> <a href="#">
+                  <div class="content-overlay"></div> <img class="content-image" src="assets/img/program-1.svg">
+                  <div class="content-details fadeIn-bottom">
+                      <h3 class="content-title">Pramuka</h3>
                   </div>
-                  <div class="col-lg-4">
-                      <h2 class="counter"></h2>
-                      <p class="h4">JUMLAH PESERTA DIDIK</p>
-                  </div>
-                </div>
-            </section>
+              </a> </div>
           </div>
-        </div>
-
-        <div class="program">
-          <div class="img-sarana mt-5">
-            <img src="assets/img/sarana-1.svg">
-            <img src="assets/img/sarana-2.svg">
-            <img src="assets/img/sarana-3.svg">
-          </div>
-        </div>
+      </div>
 
       <!-- eskul -->
       <section class="eskul my-5 pt-5 pb-5">
@@ -304,8 +346,9 @@
     </div>
 
 </body>
-<script src="	https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
-<script src="	https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="assets/script.js"></script>
 <script>
 
