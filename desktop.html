@@ -4,32 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Desktop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
     <script src="https://kit.fontawesome.com/f13fa7e0b3.js" crossorigin="anonymous"></script>
-    <title></title>
 </head>
 <body>
-<header class="masthead">
-    <div class="container">
-        <div class="masthead-logo">
-            <img src="assets/img/Logo.svg">
-        </div>
-        <div class="menu">
-           <a class="menu js-menu"href="#"> <i class="fa-solid fa-bars"></i> </a>
 
-           <nav class="site-navigation text-right ml-auto d-none d-lg-none" role="navigation">
-               <ul class="site-menu main-menu js-clone-nav ml-auto">
-                   <li><a href="#" class="nav-link">Profil</a></li>
-                   <li><a href="#" class="nav-link">Blog</a></li>
-               </ul>
-           </nav>
+     <!-- ======= Header ======= -->
+      <!-- .navbar -->
+      <div class="wrapper">
+      <header id="header" class="fixed-top">
+      <nav class="navbar pt-3">
+        <div class="container d-flex align-items-center justify-content-between">
+          <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-dark p-4">
+                <h4 class="text-white">Collapsed content</h4>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
+              </div>
+            </div>
+              <span class="sidenav-btn  nav-link" onclick="openNav()">&#9776; Menu</span>
+              <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+              </div>
+          </div>
+          <div>
+          <a class="navbar-brand text-white nav-link" href="#">
+            <div class="row">
+            <img class="img-fluid logo-nav" alt="100%x280" src="assets/img/footer-logo.svg">
+            <div class="col">
+            <h3>SMPN</h3>
+            <h5>Bandung</h5>
+            </div>
+            <h1>43</h1>
+          </div>
+          </a>
         </div>
-        <div class="search1">
-            <i class="fa-solid fa-magnifying-glass"></i>
+          <div class="cntr nav-link">
+            <div class="cntr-innr">
+              <label class="search for="inpt_search">
+                <input id="inpt_search" type="text" />
+              </label>
+            </div>
+          </div>
         </div>
-        <div class="masthead-heading">IDENTITAS SEKOLAH</div>
+          </div>
+      </nav>
+      </header>
+
+      <!-- ======= Hero Section ======= -->
+      <section id="hero-1" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(1, 19, 69, 0.8)),url(assets/img/identitas-hero.svg);">
+        <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
+          <h1>IDENTITAS SEKOLAH <span></span></h1>
+      </div>
+      </section>
+      <!-- End Hero -->
 
         <div class="row">
             <div class="col-12 tentang kami">
