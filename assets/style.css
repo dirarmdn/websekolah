@@ -68,11 +68,12 @@ body {
       font-weight: 600;
       line-height: 56px;
       color: #fff;
+      margin-top: 200px;
       }
       #hero span {
         color: #F2ED20;
       }
-    #hero .btn-get-started, #hero-1 .btn-get-started{
+    #hero .btn-get-started{
       font-weight: 600;
       font-size: 14px;
       display: inline-block;
@@ -83,11 +84,13 @@ body {
       background: transparent;
       border: 4px solid #fff;
       text-decoration: none;
+      margin-bottom: 200px;
     }
-    #hero .btn-get-started:hover, #hero-1 .btn-get-started:hover {
+    #hero .btn-get-started:hover{
       border-color: #fff;
       background: #F2ED20;
     }
+    
     .beranda img {
       height: 60%;
     }
@@ -106,6 +109,7 @@ body {
       background-color: #011345;
       height: 300px;
       margin-bottom: 100px;
+      margin-top: -225px;
     }
 
     /* beranda content */
@@ -320,47 +324,6 @@ header.masthead .masthead-logo{
   margin-left: -12px;
   font-size: 42px;
 }
-  
-  .search {
-    height: 35px;
-    width: 35px;
-    box-sizing: border-box;
-    margin: 0px 0px 7px 0px;
-    padding: 7px 0px 0px 9px;
-    border: 3px solid #fff;
-    border-radius: 25px;
-    transition: all 200ms ease;
-    cursor: text;
-    }
-    .search:after {
-      content: "";
-      position: absolute;
-      width: 3px;
-      height: 20px;
-      right: -5px;
-      top: 21px;
-      background: #fff;
-      border-radius: 3px;
-      transform: rotate(-45deg);
-      transition: all 200ms ease;
-    }
-    .search.active,
-    .search:hover {
-      width: 200px;
-      margin-right: 0px;
-    }
-    .search:after {
-      height: 0px;	
-    }
-    .search input {
-      width: 100%;
-      border: none;
-      box-sizing: border-box;
-      font-size: 15px;
-      color: #fff;
-      background: transparent;
-      outline-width: 0px;
-    }
   .muat-btn {
     margin: auto;
     margin-bottom: 100px;
