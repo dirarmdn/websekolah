@@ -51,68 +51,79 @@
       </nav>
       </header>
 
-      <div class="container-fluid">
-          <div class="row">
-              <div class="col-12">
-                  <div class="background-desktop-1" style="background: url(assets/img/Rectangle\ 62.svg) top center;">
-                    <div class="masthead-heading">CONTACT US</div>
-                  </div>
-              </div>
-          </div>
+     <!-- ======= Hero Section ======= -->
+      <section id="hero-1" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(1, 19, 69, 0.8)),url(assets/img/Rectangle\ 62.svg);">
+        <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
+          <h1>CONTACT US</h1>
       </div>
+      </section>
+      <!-- End Hero -->
 
       <div class="container">
           <div class="row">
           <div class="col-lg-12">
+              <div class="embed-responsive embed-responsive-16by9">
               <div class="gmaps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7083152862097!2d107.60463461434779!3d-6.925427994996232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e62655df2aa3%3A0xefb64aa4c785089!2sSMP%20Negeri%2043%20Kota%20Bandung!5e0!3m2!1sid!2sid!4v1652257022417!5m2!1sid!2sid" width="800" height="450" style="border:12px; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-          </div>
-          </div>
-      </div>
-
-      <div class="row">
-          <div class="col-6">
-              <div class="lokasi2">
-              <p><span style="font-size: 32px;"> Lokasi : </span><br>
-              Jl. Kautamaan Istri No.31</p>
               </div>
-              <div class="lokasi"><i class="fa-solid fa-location-dot"></i></div>
           </div>
-          <div class="col-3 namaemail">
-              <input class="form-control form-control-sm" style="border: 2px solid #919191;border-radius: 7px; width: 245px;margin-top: 111px;" type="text" placeholder="nama">
           </div>
-          <div class="col-3 namaemail">
-              <input class="form-control form-control-sm" style="border: 2px solid #919191;border-radius: 7px;width: 245px;margin-top: 111px;" type="text" placeholder="email">
-      </div>
       </div>
 
-      <div class="row">
-          <div class="col-6">
-              <div class="lokasi2" style="margin-top: 35px;">
-              <p><span style="font-size: 32px;"> Email : </span><br>
-              smpn43bdg@yahoo.com</p>
+<div class="container">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="bar">
+                <div class="icon"><i  style="font-size: 55px; text-align: left;" class="fa-solid fa-location-dot"></i></div>
+                <div class="text" style="margin-left: 10px;"><h4>Lokasi:</h4>
+                <p style="width: 300px;">Jl. Kautamaan Istri No.31</p>
+              </div></div>
+
+              <div class="bar">
+                <div class="icon"><i  style="font-size: 55px; text-align: left;" class="fa-solid fa-at"></i></div>
+                <div class="text"><h4>Email:</h4>
+                <p>smpn43bdg@yahoo.com</p>
+              </div></div>
+
+              <div class="bar">
+                <div class="icon"><i  style="font-size: 55px; text-align: left;" class="fa-solid fa-phone"></i></div>
+                <div class="text"><h4>Telepon:</h4>
+                <p></p>
+              </div></div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row" style="margin-top: 40px;">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
               </div>
-              <div class="lokasi"><i class="fa-solid fa-at"></i></div>
-          </div>
-          <div class="col-6">
-              <input class="form-control form-control-sm" style="border: 2px solid #919191;border-radius: 7px;width: 570px;" type="text" placeholder="subjek">
-          </div>
-      </div>
-
-      <div class="row">
-          <div class="col-6">
-              <div class="lokasi2" style="margin-top: 55px;">
-              <p><span style="font-size: 32px;"> Telepon : </span><br>
-              </p>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
-              <div class="lokasi"><i class="fa-solid fa-phone"></i></div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="text-center"><button style="background-color: #F2ED20; border-radius: 8px; color: #011345; border: 0; height: 40px; width: 200px; cursor: pointer;" type="submit">Send Message</button></div>
+            </form>
+
           </div>
-          <div class="col-6">
-              <input class="form-control form-control-lg" style="border: 2px solid #919191;border-radius: 7px; height: 200px; width: 570px; margin-top: -40px;" type="text" placeholder="tuliskan pesan...">
-              <button type="button" class="btn" style="background-color: #F2ED20; border-radius: 7px; border-color: #F2ED20; height: 47px; width: 120px; margin-top: 30px; text-align: center; margin-bottom: 100px;">Kirim</button>
-          </div>
+
+        </div>
+
       </div>
 
-      <div class="row" style="margin-bottom: 100px;">
+      <div class="row" style="margin-bottom: 100px; margin-top: 70px;">
           <div class="col-12" style="text-align: center; font-size: 63px;">
               <a style="color: #011345;" href="https://www.facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
               <a style="color: #011345;" href="https://www.instagram.com"><i class="fa-brands fa-instagram-square"></i></a>

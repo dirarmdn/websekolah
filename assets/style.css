@@ -704,3 +704,22 @@ table tr:nth-child(even) {
 .fadeIn-bottom{
   top: 80%;
 }
+.icon{
+  font-size: x-large;
+  text-align: center;
+  width: 25%;
+  margin-right: 20px;
+}
+.text{
+  width: 100%;
+}
+.bar {
+  background: #ffffff;
+  color: #011345;
+  border-radius: 5px;
+  padding: 25px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, min-content);
+}
+
