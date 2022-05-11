@@ -73,7 +73,7 @@ body {
       #hero span {
         color: #F2ED20;
       }
-    #hero .btn-get-started, #hero-1{
+    #hero .btn-get-started{
       font-weight: 600;
       font-size: 14px;
       display: inline-block;
@@ -90,6 +90,7 @@ body {
       border-color: #fff;
       background: #F2ED20;
     }
+    
     .beranda img {
       height: 60%;
     }
