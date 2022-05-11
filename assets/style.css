@@ -18,7 +18,7 @@ body {
     }
 
     .navbar-brand {
-      margin-right: 300px;
+      margin-right: 349px;
     }
 
     /* hero */
@@ -532,8 +532,8 @@ table{
 }
 /* Mengatur warna latar, warna teks, ukruan font dan jenis bold (tebal) pada header tabel */
 table th {
-  background:#00BFFF;
-  color:#070505;
+  background:#011345;
+  color:#FFF;
   font-weight:bold;
   font-size:14px;
 }
@@ -551,6 +551,11 @@ table tr {
 /* Mengatur warna baris genap (akan menghasilkan warna selang seling pada baris tabel) */
 table tr:nth-child(even) {
   background:#F0F8FF;
+}
+
+.btn-guru {
+  background-color: #F2ED20;
+  color: #011345;
 }
 
 .box{
