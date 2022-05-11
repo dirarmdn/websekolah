@@ -722,4 +722,9 @@ table tr:nth-child(even) {
   grid-gap: 10px;
   grid-template-columns: repeat(2, min-content);
 }
+.des-eskul{
+  color: #011345;
+  font-size: 30px;
+  text-align: center;
+}
 
