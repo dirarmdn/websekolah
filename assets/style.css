@@ -215,7 +215,7 @@ header.masthead .masthead-logo{
 .des-tentang{
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 26px;
+    font-size: 23px;
     text-align: justify;
     color: black;
     top: 775px;
@@ -224,7 +224,7 @@ header.masthead .masthead-logo{
 }
 .logo-besar{
     position: absolute;
-    top:775px;
+    top:705px;
     text-align: right;
 }
 .box-kuning{
@@ -274,7 +274,7 @@ header.masthead .masthead-logo{
     text-align: center;
     top: 1800px;
     font-family: 'Montserrat';
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 500;
     position: absolute;
     color: black;
@@ -298,22 +298,22 @@ header.masthead .masthead-logo{
     top: 2100px;
 }
 .no2{
-  top: 2220px;
+  top: 2130px;
 }
 .no3{
-  top: 2340px;
+  top: 2220px;
 }
 .no4{
-  top: 2510px;
+  top: 2310px;
 }
 .no5{
-  top: 2620px;
+  top: 2400px;
 }
 .dmisi{
     color: black;
     margin-left: 180px;
     position: absolute;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 500;
     width: 850px;
     text-align: left;
